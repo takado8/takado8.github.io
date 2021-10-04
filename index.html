@@ -16,7 +16,7 @@
     <form
         class="datatable__row datatable__row--add"
         method="POST"
-        action="https://sleepy-escarpment-68564.herokuapp.com/v1/task/createTask"
+        action="http://localhost:8080/v1/task/createTask"
         data-task-add-form
     >
       <fieldset class="datatable__row-section datatable__row-section--input-section">
@@ -72,7 +72,7 @@
 
       <fieldset class="datatable__row-section datatable__row-section--trello-section">
         <select class="datatable__select" name="board-name" data-board-name-select>
-          <option disabled selected>--- select a board ---</option>
+          <option disabled selected>--- select an board ---</option>
         </select>
         <select class="datatable__select" name="list-name" data-list-name-select>
           <option disabled selected>--- select a list ---</option>
